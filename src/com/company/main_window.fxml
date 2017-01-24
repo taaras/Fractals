@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.canvas.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.Group?>
+<?import javafx.scene.canvas.Canvas?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.SplitPane?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.company.model.Controller">
+   <children>
+    <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="650.0" prefWidth="1300.0" style="-fx-background-color: white;">
+         <children>
+            <Canvas fx:id="canvas" height="583.0" layoutX="-1.0" width="1300.0" />
+            <Button layoutX="43.0" layoutY="580.0" mnemonicParsing="false" onAction="#draw" text="DRAW" />
+            <TextField fx:id="depthTextField" layoutX="252.0" layoutY="580.0" prefHeight="31.0" prefWidth="58.0" />
+            <Label layoutX="179.0" layoutY="580.0" text="Depth" />
+            <Label layoutX="355.0" layoutY="580.0" text="Angle" />
+            <TextField fx:id="angleTextField" layoutX="400.0" layoutY="580.0" prefHeight="31.0" prefWidth="58.0" />
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>
